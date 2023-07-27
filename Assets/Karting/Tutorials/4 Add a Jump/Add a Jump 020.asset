@@ -33,6 +33,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 3532500723291440203, guid: db0af21853ba047fda7b6e30b74ffedf,
     type: 3}
   m_FuturePrefabInstances:
@@ -55,6 +56,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Add a Jump 020
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Drag Prefab to Scene
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -100,7 +103,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Drag Prefab to Scene
+        m_Untranslated: 
       Text:
         m_Untranslated: "Now we\u2019re going to drag the <b>JumpRamp</b> Prefab
           from the Project window, into the Scene view. \n\nThis will <b>instantiate</b>
